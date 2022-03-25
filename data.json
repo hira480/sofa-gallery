@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Living room sofa",
+        "price": 5000,
+        "img": "https://t4.ftcdn.net/jpg/00/69/67/51/240_F_69675138_1jiby35X9qBgu3zNj9pJl8z4KgVBBzG3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Drowing Room Sofa",
+        "price": 4000,
+        "img": "https://t4.ftcdn.net/jpg/00/69/37/61/240_F_69376117_3FehBGcTnhrQEZNFdwg4uUnJq9YTQUBJ.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sofa New 67",
+        "price": 5500,
+        "img": "https://t3.ftcdn.net/jpg/00/69/61/74/240_F_69617417_NAKaB9agH7ZbrjoUdLNnVqt0ci6E8huM.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Modern Sofa",
+        "price": 3400,
+        "img": "https://t4.ftcdn.net/jpg/00/68/76/87/240_F_68768789_W2UnF7VwO4jHLefHT8BmIR28hABgYPDv.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Crimson Pie",
+        "price": 7800,
+        "img": "https://t4.ftcdn.net/jpg/00/68/71/61/240_F_68716127_Yii1Cut0iI68G5Vsbp5sGAazcfTr0k8P.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Monster Designed",
+        "price": 3600,
+        "img": "https://t3.ftcdn.net/jpg/00/69/61/74/240_F_69617417_NAKaB9agH7ZbrjoUdLNnVqt0ci6E8huM.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Luxurious Look",
+        "price": 2100,
+        "img": "https://t4.ftcdn.net/jpg/00/69/41/55/240_F_69415528_tVuLqDnuUAvT4lx4vCg1r3j8PnAJy33h.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Classic and Comfort",
+        "price": 5000,
+        "img": "https://t4.ftcdn.net/jpg/00/68/76/87/240_F_68768789_W2UnF7VwO4jHLefHT8BmIR28hABgYPDv.jpg"
+    },
+    {
+        "id": 9,
+        "name": "2022 new colection",
+        "price": 3900,
+        "img": "https://t4.ftcdn.net/jpg/00/68/71/61/240_F_68716127_Yii1Cut0iI68G5Vsbp5sGAazcfTr0k8P.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Gorgeous Look",
+        "price": 8700,
+        "img": "https://t4.ftcdn.net/jpg/01/07/43/21/240_F_107432160_ZTzs6iWNOJ4XShUYiN56s4yZ1DRjQsnp.jpg"
+    }
+]
