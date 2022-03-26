@@ -5,6 +5,8 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
 
+    const [cart, setCart] = useState([]);
+
     useEffect(() => {
         fetch('sofa.json')
             .then(res => res.json())
@@ -16,7 +18,7 @@ const Shop = () => {
     }
 
     return (
-        <div className='d-flex row'>
+        <div className='d-flex shop row'>
             <div className="col-md-9">
                 <div className='product-container'>
                     {
