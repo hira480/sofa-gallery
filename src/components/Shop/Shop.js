@@ -11,15 +11,23 @@ const Shop = () => {
             .then(data => setProducts(data));
     }, []);
 
+    const handelAddToCart = (product) => {
+        console.log(product);
+    }
+
     return (
         <div className='d-flex row'>
-            <div className="product-container col-md-9">
-                {
-                    products.map(product => <Product
-                        key={product.id}
-                        product={product}
-                    ></Product>)
-                }
+            <div className="col-md-9">
+                <div className='product-container'>
+                    {
+                        products.map(product => <Product
+                            key={product.id}
+                            product={product}
+                            handelAddToCart={handelAddToCart}
+                        ></Product>)
+                    }
+                </div>
+
             </div>
             <div className="cart-container col-md-3">
                 <h2>This is cart</h2>
