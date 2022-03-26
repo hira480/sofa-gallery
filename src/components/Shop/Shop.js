@@ -14,9 +14,10 @@ const Shop = () => {
     }, []);
 
     const handelAddToCart = (product) => {
-        console.log(product);
+        console.log(product.name);
+        const newCart = [...cart, product];
+        setCart(newCart);
     }
-
     return (
         <div className='d-flex shop row'>
             <div className="col-md-9">
@@ -32,7 +33,8 @@ const Shop = () => {
 
             </div>
             <div className="cart-container col-md-3">
-                <h2>This is cart</h2>
+                <h2>Selected Items</h2>
+                <p>Clicked Item: {cart.length}</p>
             </div>
         </div>
     );
